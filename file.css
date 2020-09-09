@@ -1,0 +1,187 @@
+
+*{
+padding: 0;
+margin: 0;
+text-decoration: none;
+list-style: none;
+box-sizing: border-box;
+}
+body{
+    background-image: url(https://img.rawpixel.com/s3fs-private/rawpixel_images/website_content/rm21-smoke-bb-5_1.jpg?w=800&dpr=1&fit=default&crop=default&q=65&vib=3&con=3&usm=15&bg=F4F4F3&ixlib=js-2.2.1&s=c8347a73d6427dda5d03bd1100c39354);
+    font-family: cursive;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+    height: 100vh;
+}
+nav{
+background: #42455a;
+height: 80px;
+width: 100%;
+}
+label.logo{
+color: pink;
+font-size: 35px;
+line-height: 80px;
+padding: 0 100px;
+font-weight: bold;
+}
+nav ul{
+float:right;
+margin-right: 20px;
+}
+nav ul li{
+display: inline-block;
+line-height: 80px;
+margin: 0 5px;
+}
+nav ul li a{
+color: white;
+font-size: 17px;
+text-transform: uppercase;
+padding: 7px 13px;
+border-radius: 20px;
+}
+a.active,a:hover{
+background: pink;
+transition: .5s;
+}
+.checkbtn{
+font-size: 30px;
+color: pink;
+float: right;
+line-height: 80px;
+margin-right: 40px;
+cursor: pointer;
+display: none;
+}
+#check{
+display: none;
+}
+@media (max-width: 952px){
+label.logo{
+font-size: 30px;
+padding-left: 50px;
+}
+nav ul li a{
+font-size: 16px;
+}
+}
+@media (max-width:858px){
+.checkbtn{
+display: block;
+}
+ul{
+position: fixed;
+width: 100%;
+height: 100vh;
+background: gray;
+top: 80px;
+left: -100%;
+text-align: right;
+transition: all .5s;
+}
+nav ul li{
+    display: block;
+    margin: 50px 0;
+    line-height: 30px;
+    
+}
+nav ul li a{
+    font-size: 20px;
+}
+a:hover,a.active{
+background:#42455a;
+color: pink;
+border-radius: 30px;
+}
+#check:checked ~ ul{
+left: 0;
+}
+}
+.banner{
+width: 0%;
+height: 70%;
+top: 25%;
+left: 130px;
+position: absolute;
+}
+.about h1{
+text-align: center;
+color: indigo;
+text-shadow: 3px 3px white;
+text-decoration: underline;
+font-style: italic;
+    font-family: cursive;
+}
+.about h2{
+color:#42455a;
+text-indent: 50px;
+font-style: italic;
+
+}
+.app-text{
+    width: 50%;
+    float: left;
+}
+.app-text h3{
+    color: rgb(52, 105,218);
+    font-size: 43px;
+    width: 600px;
+    position: relative;
+    font-style: italic;
+    font-family: cursive;
+    text-decoration: underline;
+    transform: translate(0 , 50px);
+}
+.app-text h1{
+    color: white;
+    font-size: 50px;
+    width: 640px;
+    position: relative;
+    font-style: italic;
+    font-family: cursive;
+    text-shadow: 5px 5px purple;
+    text-indent: 40px;
+    line-height: 100px;
+    transform: translate(0 ,50px);
+    background: #42455a;
+border-radius: 50%;
+}
+.app-text h2{
+    color: indigo;
+    font-size: 40px;
+    width: 640px;
+    position: relative;
+    margin-left: 40px;
+    font-style: italic;
+    font-family: cursive;
+    text-indent: 30px;
+    text-decoration: underline;
+    transform: translate(0 ,100px);
+    text-shadow: 5px 5px white;
+}
+.app-text p{
+    color:  #333;
+    font-style: italic;
+    font-family: cursive;
+    font-weight: bold;
+    width: 650px;
+    font-size: 20px;
+    margin: 30px 0 30px 40px;
+    line-height: 25px;
+    text-indent: 80px;
+    transform: translate(0 , 100px);
+}
+.me img{
+    width: 20%;
+    margin-top: -20px;
+    padding-left: 50px;
+    margin-left:1000px;
+    transform: translate(0 , 60px);
+    border-radius: 50%;
+    background-image: linear-gradient(#42455a,#42455a),radial-gradient(circle at top left,#fd00da,#19d7f8);
+background-origin: border-box;
+background-clip: content-box,border-box;
+    }

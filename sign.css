@@ -1,0 +1,120 @@
+body{
+background-image: url(https://c0.wallpaperflare.com/preview/71/610/431/advice-article-background-beverage.jpg);
+background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    }
+
+    .navbar {
+        overflow: hidden;
+        background-color: #42455a;
+        position: fixed;
+        top: 0;
+        width: 100%; 
+      }
+      
+      .navbar a {
+        float: left;
+        display: block;
+        color: white;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+        font-family: cursive;
+        font-size: larger;
+
+      }
+      .navbar a:hover {
+        background:pink;
+        color: #42455a;
+        border-radius: 30%;
+      }
+.loginbox{
+    margin: 0px;
+   width: 320px;
+   height: 420px;
+   background: rgb(11, 22, 22);
+   top: 50%;
+   left: 50%;
+   position: absolute;
+   box-sizing: border-box;
+   padding: 70px 30px;
+   border: 4px dotted pink;
+   transform: translate(-50%,-50%);
+   }
+   .images{
+   width: 100px;
+   height: 100px;
+   border-radius: 50%;
+   position: absolute;
+   top: -50px;
+   left: calc(50% -50px);
+   transform: translate(65%);
+   border: 4px dotted pink;
+   }
+   .loginbox h1{
+       color: pink;
+       margin: 0;
+       padding: 0 0 20px;
+       text-align: center;
+       font-family: cursive;
+       font-size: 22px;
+   
+   }
+   .loginbox p{
+   margin: 0;
+   padding: 0;
+   font-weight: bold;
+   }
+   .loginbox p{
+       margin: 0;
+       padding: 0;
+       font-weight:lighter;
+       color: white;
+       font-size: 25px;
+       }
+   .loginbox input{
+   width: 100%;
+   height: 100%;
+   margin-bottom: 40px;
+   
+   }
+   .loginbox input[type="text"], input[type="student card id"]{
+   border: none;
+   border-bottom: 4px solid pink;
+   background:white;
+   height: 20px;
+   color: black;
+   font-size: large;
+   }
+   .loginbox input[type="password"], input[type="full name"]{
+   border: none;
+   border-bottom: 4px solid pink;
+   background: white;
+   height: 20px;
+   color: black;
+   font-size: large;
+   }
+   .loginbox input[type="submit"]{
+   height: 30px;
+   color: black;
+   font-size: large;
+   font-family: algerian;
+   border-bottom: pink;
+   border-radius: 50%;
+   
+   }
+   .loginbox input[type="submit"]:hover{
+   cursor: pointer;
+   background: pink;
+   border-radius: 50%;
+   }
+   .loginbox a{
+   font-size: 15px;
+   line-height: large;
+   color: pink;
+   }

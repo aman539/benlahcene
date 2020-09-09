@@ -1,0 +1,103 @@
+body{
+  margin: 0;
+  padding: 0;
+  background-image: url(https://dorcasthewriter.files.wordpress.com/2012/12/blog-background.jpg);
+background-size: cover;
+background-repeat: no-repeat;
+background-position: center;
+height: 100vh;
+width: 100%;
+}
+
+.navbar {
+  overflow: hidden;
+  background-color:#42455a;
+  position: fixed;
+  top: 0;
+  width: 100%; 
+}
+
+.navbar a {
+  float: left;
+  display: block;
+  color: white;
+  font-size: larger;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-family: cursive;
+ 
+}
+.navbar a:hover {
+  background:pink;
+  color: #42455a;
+  border-radius: 30%;
+}
+      h1{
+    text-align: center;
+    color: black;
+    text-decoration: underline;
+    text-shadow: 3px 3px rgb(250, 201, 209);
+    background-color: gray;
+    font-family: cursive;
+    border-radius: 9px;
+      }
+        h2{
+          color: black;
+          text-decoration: underline;
+          text-shadow: 3px 3px rgb(250, 201, 209);
+          font-family: cursive;
+        }
+        p{
+          color: black;
+          font-size: larger;
+          font-style: italic;
+        font-weight: bold;
+        }
+        ul{
+        font-size: larger;
+        font-style: italic;
+        font-weight: bold;
+
+        }
+        img{
+         margin-left: 50px;
+          border: 3px double pink;
+          border-radius: 150px;
+          transform: translate(0px, 8px);
+          background-image: linear-gradient(#42455a,#42455a),radial-gradient(circle at top left,#fd00da,#19d7f8);
+          border-radius: 50%;
+        }
+        #ligntlayer{
+        margin: 50px auto;
+        width: 1000px;
+        height: 700px;
+        background-color: gray;
+        border-radius: 9px;
+        }
+        .info{
+        width: 400px;
+        height: 300px;
+        float: left;
+        margin-left: 50px;
+        }
+        .successes{
+      transform: translate(180px, -130px);
+      line-height: 30px;
+        }
+        .cv{
+           float: left;
+        margin-top: -250px;
+        margin-left: 150px;
+       transform: translate(0px ,130px);
+        }
+        button{
+        color: white;
+        border: 2px solid  rgb(49, 42, 42);
+        width: 90px;
+        height: 30px;
+        background-image: linear-gradient(#42455a,#42455a),radial-gradient(circle at top left,#fd00da,#19d7f8);
+        background-origin: border-box;
+        background-clip: content-box,border-box;
+        border-radius: 50%;
+        }
